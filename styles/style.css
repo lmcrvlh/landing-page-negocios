@@ -31,7 +31,7 @@ body {
 }
 
 .cabecalho__menu__link {
-    font-family: var(--fonte-secundaria);
+    font-family: var(--cor-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
@@ -62,9 +62,10 @@ body {
     color: var(--cor-terciaria);
 }
 
-.apresentacao__conteudo__texto {
+.apresentacao__conteudo__texto, ul {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
+
 }
 
 .apresentacao__links {
@@ -129,6 +130,11 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
     }
 
 }
